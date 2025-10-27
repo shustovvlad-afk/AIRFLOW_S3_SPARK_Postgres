@@ -17,11 +17,11 @@ from airflow.operators.python import PythonOperator
 LOG = logging.getLogger(__name__)
 
 # Default connection settings for the source Postgres instance.
-POSTGRES_HOST: "localhost"
-POSTGRES_PORT: 5432
-POSTGRES_USER: "postgres"
-POSTGRES_PASSWORD: "postgres"
-POSTGRES_DB: "postgres"
+POSTGRES_HOST = "localhost"
+POSTGRES_PORT = 5432
+POSTGRES_USER = "postgres"
+POSTGRES_PASSWORD = "postgres"
+POSTGRES_DB = "postgres"
 
 # MinIO configuration.
 MINIO_ENDPOINT: Final[str] = os.environ.get("MINIO_ENDPOINT", "minio:9000")
@@ -94,7 +94,7 @@ with DAG(
     start_date=pendulum.datetime(2024, 1, 1, tz="UTC"),
     schedule=None,
     catchup=False,
-    tags=["postgres", "minio", "parquet", "0.1"],
+    tags=["postgres", "minio", "parquet", "0.2"],
 ) as dag:
     create_table = PythonOperator(
         task_id="create_table_if_missing", python_callable=create_newtable_if_missing
