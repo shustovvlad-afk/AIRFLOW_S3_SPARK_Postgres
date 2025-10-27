@@ -10,6 +10,4 @@ minio/data/.minio.sys/config/config.json/xl.meta
 minio/data/.minio.sys/config/iam/format.json/xl.meta
 minio/data/.minio.sys/config/iam/sts/JQ4Y7XS07T1UXRNAJTYB/identity.json/xl.meta
 minio/data/.minio.sys/pool.bin/xl.meta
-minio/data/.minio.sys/tmp/174bfaa5-9e17-4a13-be7c-a609d770cec2
-minio/data/.minio.sys/tmp/.trash/92b2eadf-49a7-45b5-9a19-7b65008267f6/xl.meta.bkp
-minio/data/.minio.sys/tmp/.trash/b1d7830a-317a-4217-9f98-c4ab455b6789/xl.meta.bkp
+minio/data/.minio.sys
