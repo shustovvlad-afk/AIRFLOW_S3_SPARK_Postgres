@@ -12,8 +12,4 @@ minio/data/.minio.sys/config/iam/sts/JQ4Y7XS07T1UXRNAJTYB/identity.json/xl.meta
 minio/data/.minio.sys/pool.bin/xl.meta
 minio/data/.minio.sys
 airflow/dags/__pycache__
-airflow/logs
-airflow/logs/scheduler
-airflow/logs/dag_processor_manager
-airflow/logs/dag_processor_manager/dag_processor_manager.log
-airflow/logs/scheduler/2025-10-27/test_dag.py.log
+airflow/logs/
