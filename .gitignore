@@ -1,15 +1,3 @@
-minio/data/.minio.sys/format.json
-minio/data/.minio.sys/buckets/.bloomcycle.bin/xl.meta
-minio/data/.minio.sys/buckets/.usage-cache.bin/xl.meta
-minio/data/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta
-minio/data/.minio.sys/buckets/.usage.json/xl.meta
-minio/data/.minio.sys/buckets/test/.metadata.bin/xl.meta
-minio/data/.minio.sys/buckets/test/.usage-cache.bin/xl.meta
-minio/data/.minio.sys/buckets/test/.usage-cache.bin.bkp/xl.meta
-minio/data/.minio.sys/config/config.json/xl.meta
-minio/data/.minio.sys/config/iam/format.json/xl.meta
-minio/data/.minio.sys/config/iam/sts/JQ4Y7XS07T1UXRNAJTYB/identity.json/xl.meta
-minio/data/.minio.sys/pool.bin/xl.meta
-minio/data/.minio.sys
-airflow/dags/__pycache__
+minio/data/
+airflow/dags/__pycache__/
 airflow/logs/

@@ -452,3 +452,157 @@ File Path                               PID    Runtime      # DAGs    # Errors  
 /opt/airflow/dags/postgres_to_minio.py                           1           0  0.90s           2025-10-27T18:38:04
 /opt/airflow/dags/test_dag.py                                    1           0  0.16s           2025-10-27T18:37:39
 ================================================================================
+[2025-10-27T18:38:27.762+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-27T18:38:27.779+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-10-27T18:38:34.909+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py    507  0.02s             1           0  0.90s           2025-10-27T18:38:04
+/opt/airflow/dags/test_dag.py                                    1           0  0.18s           2025-10-27T18:38:09
+================================================================================
+[2025-10-27T18:38:45.672+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-27T18:39:34.566+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-27T18:39:34.567+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-27T18:39:34.568+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-27T18:39:34.569+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-27T18:39:34.575+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-10-27T18:39:34.787+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/test_dag.py             167  0.11s             0           0
+/opt/airflow/dags/postgres_to_minio.py    165  0.12s             0           0
+================================================================================
+[2025-10-27T18:40:05.079+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  2.25s           2025-10-27T18:39:36
+/opt/airflow/dags/test_dag.py             176  0.02s             1           0  0.30s           2025-10-27T18:39:34
+================================================================================
+[2025-10-27T18:40:35.124+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.89s           2025-10-27T18:40:08
+/opt/airflow/dags/test_dag.py                                    1           0  0.31s           2025-10-27T18:40:05
+================================================================================
+[2025-10-27T18:41:05.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.87s           2025-10-27T18:40:39
+/opt/airflow/dags/test_dag.py                                    1           0  0.27s           2025-10-27T18:40:35
+================================================================================
+[2025-10-27T18:41:36.223+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.82s           2025-10-27T18:41:10
+/opt/airflow/dags/test_dag.py                                    1           0  0.26s           2025-10-27T18:41:06
+================================================================================
+[2025-10-27T18:42:06.805+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.85s           2025-10-27T18:41:42
+/opt/airflow/dags/test_dag.py                                    1           0  0.26s           2025-10-27T18:41:36
+================================================================================
+[2025-10-27T18:42:37.511+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.96s           2025-10-27T18:42:14
+/opt/airflow/dags/test_dag.py             234  0.02s             1           0  0.24s           2025-10-27T18:42:07
+================================================================================
+[2025-10-27T18:43:07.993+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.60s           2025-10-27T18:42:45
+/opt/airflow/dags/test_dag.py             245  0.02s             1           0  0.19s           2025-10-27T18:42:37
+================================================================================
+[2025-10-27T18:43:38.211+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.88s           2025-10-27T18:43:16
+/opt/airflow/dags/test_dag.py             256  0.02s             1           0  0.16s           2025-10-27T18:43:08
+================================================================================
+[2025-10-27T18:44:08.376+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.61s           2025-10-27T18:43:47
+/opt/airflow/dags/test_dag.py                                    1           0  0.30s           2025-10-27T18:43:38
+================================================================================
+[2025-10-27T18:44:34.875+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-27T18:44:34.895+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-10-27T18:44:38.980+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.83s           2025-10-27T18:44:18
+/opt/airflow/dags/test_dag.py                                    1           0  0.26s           2025-10-27T18:44:09
+================================================================================
+[2025-10-27T18:45:09.532+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.85s           2025-10-27T18:44:50
+/opt/airflow/dags/test_dag.py                                    1           0  0.23s           2025-10-27T18:44:39
+================================================================================
+[2025-10-27T18:45:40.006+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.84s           2025-10-27T18:45:21
+/opt/airflow/dags/test_dag.py                                    1           0  0.27s           2025-10-27T18:45:10
+================================================================================
+[2025-10-27T18:46:10.551+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.81s           2025-10-27T18:45:53
+/opt/airflow/dags/test_dag.py                                    1           0  0.20s           2025-10-27T18:45:40
+================================================================================
+[2025-10-27T18:46:41.163+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_to_minio.py                           1           0  0.87s           2025-10-27T18:46:25
+/opt/airflow/dags/test_dag.py                                    1           0  0.23s           2025-10-27T18:46:11
+================================================================================
