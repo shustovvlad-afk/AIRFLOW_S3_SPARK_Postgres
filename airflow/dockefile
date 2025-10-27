@@ -1,0 +1,11 @@
+FROM apache/airflow:2.9.2
+
+# Устанавливаем переменные окружения для airflow init и доступа
+ENV AIRFLOW_HOME=/opt/airflow \
+    _AIRFLOW_WWW_USER_CREATE=True \
+    _AIRFLOW_WWW_USER_USERNAME=admin \
+    _AIRFLOW_WWW_USER_PASSWORD=admin \
+    AIRFLOW__CORE__LOAD_EXAMPLES=False
+
+# Запускаем webserver по умолчанию
+CMD ["airflow", "webserver"]
