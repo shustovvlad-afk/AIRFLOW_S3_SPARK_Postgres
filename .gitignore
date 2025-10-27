@@ -15,3 +15,5 @@ airflow/dags/__pycache__
 airflow/logs
 airflow/logs/scheduler
 airflow/logs/dag_processor_manager
+airflow/logs/dag_processor_manager/dag_processor_manager.log
+airflow/logs/scheduler/2025-10-27/test_dag.py.log
